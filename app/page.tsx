@@ -55,10 +55,11 @@ export default function HomePage() {
     <div className="space-y-10">
       <section className="text-center space-y-5">
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
-          <span className="gradient-text">Encontrá qué ver</span> al instante
+          <span className="gradient-text">Encontra que ver</span> al instante
         </h1>
         <p className="text-white/80 max-w-2xl mx-auto">
           Buscá una película o serie, leé reseñas reales y descubrí en qué plataforma verla.
+          Y ya que estas succioname la pinga
         </p>
         <div className="max-w-2xl mx-auto card p-3 sm:p-4">
           <SearchBar value={q} onChange={setQ} placeholder="Buscar: Oppenheimer, The Bear, etc." />
